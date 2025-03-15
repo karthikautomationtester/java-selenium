@@ -28,6 +28,8 @@ This project is a Java-based automation framework for testing an e-commerce webs
     ```
 
 3. Ensure ChromeDriver is installed and available in your system PATH.
+4. you want to update to Chrome non-headless, update the following in the ECommerceTest
+options.addArguments("--headless");
 
 ## Running Tests
 
